@@ -1,1 +1,3 @@
-chmod +x clevercloud/postBuild.sh
+#!/bin/bash
+cd backend
+mvn clean package -DskipTests
