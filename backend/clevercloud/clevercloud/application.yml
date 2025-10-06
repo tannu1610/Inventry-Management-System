@@ -1,4 +1,0 @@
-
-deploy:
-  build: ./clevercloud/postBuild.sh
-  run: java -jar backend/target/InventoryMgtSystem-0.0.1-SNAPSHOT.jar
